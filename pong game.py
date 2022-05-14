@@ -31,15 +31,13 @@ playerSpeed = 0
 playerScore = 0
 opponentScore = 0
 
- 
 
 #load font
 font = pygame.font.SysFont('freesansbold.ttf', 25)
 bigFont = pygame.font.SysFont('freesansbold.ttf', 50)
 
-# Start and Finish Screen Flag
 onStartScreen = True
-onGameOverScreen = False
+
 
 def inputs():
     global onStartScreen
